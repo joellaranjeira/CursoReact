@@ -15,7 +15,9 @@ function App() {
    <div className = "App">
 
     <h2>Olá {newName}</h2>
+    
     <h1>A soma é: {sum(3,9)}</h1>
+
     <img src={url} alt="Minha imagem"/>
 
    </div>
