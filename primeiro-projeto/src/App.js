@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 import HelloWorld from './components/HelloWorld'
 import Frases from './components/Frases'
 import SayMyName from './components/SayMyName'
@@ -21,6 +21,7 @@ function App() {
 
     <Pessoas nome="Alair" idade = "15" profissao = "Suporte" foto = "https://via.placeholder.com/150"/>
 
+    <Frases/>
    </div>
   )
 }

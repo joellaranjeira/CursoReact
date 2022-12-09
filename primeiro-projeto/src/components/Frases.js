@@ -1,9 +1,10 @@
+import styles from './Frases.module.css'
+
 function Frases ()
 {
-
     return (
-        <div>
-            <h1>Componente numero 2</h1>
+        <div className={styles.FrasesContainer}>
+            <p className={styles.FrasesContent}>Componente numero Frases</p>          
         </div>
     )
 }
