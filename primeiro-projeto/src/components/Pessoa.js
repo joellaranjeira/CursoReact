@@ -1,9 +1,9 @@
 function Pessoa (props) {
     return (
         <div>
-            <h2>Componente numero Pessoa</h2>
+            <h1>Componente numero Pessoa</h1>
             <img src={props.foto} alt={props.nome}/>
-            <h2>Nome: {props.nome}</h2>
+            <p>Nome: {props.nome}</p>
             <p>Idade: {props.idade}</p>
             <p>Profissao: {props.profissao}</p>
         </div>

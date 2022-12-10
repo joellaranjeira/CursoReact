@@ -3,10 +3,18 @@ body{
   background-color: #efefef;
 }
 
-h1{
-  color: rgb(216, 16, 16);
-}
 
 h2{
-  color: rgb(15, 194, 84);
+  background-color: #7f7;
+  padding: 10px;
+}
+
+h1{
+  background-color: #777;
+  padding: 10px;
+}
+
+p{
+  background-color: #999;
+  padding: 10px;
 }

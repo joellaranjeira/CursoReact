@@ -4,7 +4,7 @@ function Frases ()
 {
     return (
         <div className={styles.FrasesContainer}>
-            <p className={styles.FrasesContent}>Componente numero Frases</p>          
+            <p className={styles.FrasesContent}>Componente Frases</p>          
         </div>
     )
 }
