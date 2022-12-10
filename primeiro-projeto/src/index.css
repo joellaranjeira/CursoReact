@@ -3,14 +3,13 @@ body{
   background-color: #efefef;
 }
 
-
-h2{
-  background-color: #7f7;
+h1{
+  background-color: #777;
   padding: 10px;
 }
 
-h1{
-  background-color: #777;
+h2{
+  background-color: #7f7;
   padding: 10px;
 }
 
