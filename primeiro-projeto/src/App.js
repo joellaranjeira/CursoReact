@@ -15,9 +15,9 @@ function App() {
 
     <HelloWorld/> 
 
-    <SayMyName nome="Mathues"/> 
+    <SayMyName nome="Mathues"/>     
 
-    <SayMyName nome={nome}/> 
+    <SayMyName nome={nome}/>
 
     <Pessoa nome="Fabricio" idade = "10" profissao = "Dev" foto = "https://via.placeholder.com/150"/>
 
