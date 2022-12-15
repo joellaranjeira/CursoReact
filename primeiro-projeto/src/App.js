@@ -5,12 +5,19 @@ import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
 import Pessoas from './components/Pessoas'
 import List from './components/List'
+import Evento from './components/Evento'
+import Form from './components/Form';
 
 function App() {
 
   const nome = "Gabriel"
   return (
    <div className = "App">
+
+    <Evento/>
+
+    <Form/>
+    
     <h2>App page</h2>
 
     <HelloWorld/> 
