@@ -6,7 +6,8 @@ import Pessoa from './components/Pessoa'
 import Pessoas from './components/Pessoas'
 import List from './components/List'
 import Evento from './components/Evento'
-import Form from './components/Form';
+import Form from './components/Form'
+import Form02 from './components/Form02'
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
     <Evento/>
 
     <Form/>
+
+    <Form02/>
     
     <h2>App page</h2>
 
