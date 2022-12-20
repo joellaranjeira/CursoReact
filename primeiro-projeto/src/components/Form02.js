@@ -2,9 +2,9 @@ import {useState} from 'react'
 
 function Form02 () {
 
-    function cadastrarUsuario (e) {
+    function cadastrarUsuario(e) {
         e.preventDefault()
-        console.log(`Usuario ${name} senha ${password}`)
+        console.log(`Usuario cadastrado foi ${name} e a senha ${password}`)
      
        }
 
