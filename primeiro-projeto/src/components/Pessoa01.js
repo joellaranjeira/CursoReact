@@ -1,4 +1,4 @@
-function Pessoa (props) {
+function Pessoa01 (props) {
     return (
         <div>
             <h1>Componente numero Pessoa</h1>
@@ -10,4 +10,4 @@ function Pessoa (props) {
     )
 }
 
-export default Pessoa
+export default Pessoa01

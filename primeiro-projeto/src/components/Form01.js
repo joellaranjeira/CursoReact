@@ -1,4 +1,4 @@
-function Form () {
+function Form01 () {
 
     function cadastrarUsuario (e) {
         e.preventDefault()
@@ -20,4 +20,4 @@ function Form () {
     )
 }
 
-export default Form
+export default Form01

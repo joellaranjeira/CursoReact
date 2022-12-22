@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-function ItemProps ( {marca, ano_lancamento}){
+function Item02 ( {marca, ano_lancamento}){
     return (
         <>
             <li>
@@ -10,14 +10,14 @@ function ItemProps ( {marca, ano_lancamento}){
     )
 }
 
-ItemProps.propTypes = {
+Item02.propTypes = {
     marca: PropTypes.string.isRequired,
     ano_lancamento: PropTypes.number,
 }
 
-ItemProps.defaultProps = {
+Item02.defaultProps = {
     marca: 'Faltou a marca',
     ano_lancamento: 0,
 }
 
-export default ItemProps
+export default Item02

@@ -1,23 +1,23 @@
-import Item from './Item'
-import ItemProps from './ItemProps'
+import Item01 from './Item01'
+import Item02 from './Item02'
 function List ()
 {
     return(
     <>
-        <h1>Minha List</h1>
+        <h1>Minha Lista - List</h1>
         <ul>
             <p>List</p>
             <li>Gol</li>
             <li>Uno</li>
 
-            <p>Item</p>
-            <Item marca = "Jeep"/>
-            <Item marca = "Fox"/>
+            <p>Item - Item01</p>
+            <Item01 marca = "Jeep"/>
+            <Item01 marca = "Fox"/>
 
-            <p>ItemProps</p>
-            <ItemProps marca="Fusca" ano_lancamento = {1979}/>
-            <ItemProps marca="Pollo" ano_lancamento = {1979}/> 
-            <ItemProps />
+            <p>ItemProps - Item02 </p>
+            <Item02 marca="Fusca" ano_lancamento = {1979}/>
+            <Item02 marca="Pollo" ano_lancamento = {1979}/> 
+            <Item02 />
 
         </ul>
     </>

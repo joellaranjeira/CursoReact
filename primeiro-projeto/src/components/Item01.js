@@ -1,4 +1,4 @@
-function Item (props){
+function Item01 (props){
     return(
         <>
             <li>{props.marca}</li>
@@ -7,4 +7,4 @@ function Item (props){
 
 }
 
-export default Item
+export default Item01

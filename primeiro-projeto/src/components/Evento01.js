@@ -1,4 +1,4 @@
-function Evento () {
+function Evento01 () {
 
     function meuEvento(){
         console.log("Botao foi ativado!")
@@ -13,4 +13,4 @@ function Evento () {
 }
 
 
-export default Evento
+export default Evento01

@@ -1,4 +1,4 @@
-function Pessoas ({nome, idade, profissao, foto}) {
+function Pessoa02 ({nome, idade, profissao, foto}) {
     return (
         <div>
             <h1>Componente Pessoas</h1>
@@ -10,4 +10,4 @@ function Pessoas ({nome, idade, profissao, foto}) {
     )
 }
 
-export default Pessoas
+export default Pessoa02
