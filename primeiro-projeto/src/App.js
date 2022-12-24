@@ -4,17 +4,25 @@ import Frases from './components/Frases'
 import SayMyName from './components/SayMyName'
 import Pessoa01 from './components/Pessoa01'
 import Pessoa02 from './components/Pessoa02'
-import List from './components/List'
+import List01 from './components/List01'
 import Evento01 from './components/Evento01'
 import Evento02 from './components/Evento02'
 import Form01 from './components/Form01'
 import Form02 from './components/Form02'
 import Condicional from './components/Condicional'
+import List02 from './components/List02'
+
 function App() {
 
   const nome = "Gabriel"
+  const meusItens = ['React', 'Vue', "Angula"]
   return (
    <div className = "App">
+    <h2>Renderização de Listas</h2>
+    <h1>Primeiro Exemplo</h1>
+    <List02 itens={meusItens}/>
+    <List02 itens={[]}/>
+
     <h2>Condicional</h2>
     <h1>Primeiro Exemplo</h1>
     <Condicional/>
@@ -45,7 +53,7 @@ function App() {
 
     <Frases/>
 
-    <List/>
+    <List01/>
    </div>
   )
 }

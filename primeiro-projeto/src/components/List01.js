@@ -1,6 +1,6 @@
 import Item01 from './Item01'
 import Item02 from './Item02'
-function List ()
+function List01 ()
 {
     return(
     <>
@@ -24,4 +24,4 @@ function List ()
     )
 }
 
-export default List
+export default List01
