@@ -24,17 +24,19 @@ function App() {
   return (
    <div className = "App">
     <h2>Renderização de State Lif</h2>
-    <h1>Primeiro Exemplo</h1>
+    <h1>Primeiro Exemplo - SeuNome</h1>
     <SueNome setNome = {setNome1}/>
+    <h1>Segundo Exemplo - Saudacao</h1>
     <Saudacao nome1={nome1}/>
 
     <h2>Renderização de Listas</h2>
-    <h1>Primeiro Exemplo</h1>
+    <h1>Primeiro Exemplo - List02</h1>
     <List02 itens={meusItens}/>
+    <h1>Segundo Exemplo - List02</h1>
     <List02 itens={[]}/>
 
     <h2>Condicional</h2>
-    <h1>Primeiro Exemplo</h1>
+    <h1>Primeiro Exemplo - Condicional</h1>
     <Condicional/>
 
     <h2>Eventos</h2>
