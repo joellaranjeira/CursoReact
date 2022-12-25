@@ -1,4 +1,5 @@
 import './App.css'
+import { useState } from 'react'
 import HelloWorld from './components/HelloWorld'
 import Frases from './components/Frases'
 import SayMyName from './components/SayMyName'
@@ -11,13 +12,22 @@ import Form01 from './components/Form01'
 import Form02 from './components/Form02'
 import Condicional from './components/Condicional'
 import List02 from './components/List02'
+import SueNome from './components/SeuNome'
+import Saudacao from './components/Saudacao'
 
 function App() {
 
+
   const nome = "Gabriel"
   const meusItens = ['React', 'Vue', "Angula"]
+  const [nome1, setNome1] = useState()
   return (
    <div className = "App">
+    <h2>Renderização de State Lif</h2>
+    <h1>Primeiro Exemplo</h1>
+    <SueNome setNome = {setNome1}/>
+    <Saudacao nome1={nome1}/>
+
     <h2>Renderização de Listas</h2>
     <h1>Primeiro Exemplo</h1>
     <List02 itens={meusItens}/>
