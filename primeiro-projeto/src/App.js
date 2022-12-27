@@ -1,24 +1,23 @@
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Home from './pages/Home'
-import Contato from './pages/Contato'
-import Empresa from './pages/Empresa'
-import NavBar from './components/Layout/NavBar'
-import Footer from './components/Layout/Footer'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Footer from './components/layout/Footer'
+import NavBar from './components/layout/NavBar'
+import Contato from './components/pages/Contato'
+import Empresa from './components/pages/Empresa'
+import Home from './components/pages/Home'
 
 function App() {
-
   return (
     <Router>
-      <NavBar />
+      <NavBar/>
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home/>
         </Route>
         <Route path="/empresa">
-          <Empresa />
+          <Empresa/>
         </Route>
         <Route path="/contato">
-          <Contato />
+          <Contato/>
         </Route>
       </Switch>
       <Footer />
@@ -26,4 +25,4 @@ function App() {
   )
 }
 
-export default App;
+export default App

@@ -1,5 +1,5 @@
-function Footer (){
+function Footer() {
     return <footer>Rodapé</footer>
-}
-
-export default Footer
+  }
+  
+  export default Footer

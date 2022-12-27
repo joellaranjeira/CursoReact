@@ -1,8 +1,9 @@
-.list{
+.list {
     display: flex;
-    list-style: nome;
-}
-
-.item{
-    margin-right: 2em;
-}
+    list-style: none;
+  }
+  
+  .item {
+    margin-right: 1em;
+  }
+ 
