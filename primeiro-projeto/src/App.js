@@ -4,7 +4,7 @@ import NavBar from './components/layout/NavBar'
 import Contato from './components/pages/Contato'
 import Empresa from './components/pages/Empresa'
 import Home from './components/pages/Home'
-//import Auxiliar from './components/Auxiliar'
+
 
 function App() {
   return (
@@ -21,10 +21,8 @@ function App() {
           <Footer />
         </Router>
 
-        
       </header>
-   {/*    <h1>Aulas anteriores</h1>
-        <Auxiliar/> */}
+
     </div>
   )
 }

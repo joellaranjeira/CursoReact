@@ -14,8 +14,8 @@ function Footer() {
         <FaLinkedin />
       </li>
     </ul>
-    <p>Rodapé </p>
-    </footer>
+    <p className={styles.rodape}>Rodapé </p>
+  </footer>
 }
 
 export default Footer
